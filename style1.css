@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+
+/*font-family: 'Roboto', sans-serif;*/
+
+
+
+/*font-family: 'Nunito Sans', sans-serif;*/
+
+:root {
+    --font-style: 'Nunito Sans', sans-serif;  /* Definir comme une variable pour l'utilisé*/
+}
+
+*{
+    box-sizing: border-box ;
+}
+
+body{     /* Le style pour tous le BODY */
+     background-color: #fff;     /*Background Color */
+     font-family: var(--font-style) ;       /* utilisation comme une variable pour tous les textes du BODY */
+}
+
+.LoginBox{
+     position: absolute;
+     top: 45%;
+     left: 50%;
+     width: 500px;
+     height: 500px;
+     padding: 87px;
+     transform: translate(-50%,-50%) ;
+     background-color: #242026 ;
+     box-shadow:  0 0 25px rgba(13, 13, 13, 0.837);
+     border-radius: 10px;
+} 
+
+.LoginBox h2{
+    margin: -10px 0 30px ;
+    padding: 0  ;
+    font-size:190%;
+    color:#fff ;
+    text-align: center;
+}
+
+.LoginBox .UserBox input{
+    position: relative;
+    width: 100%;
+    padding:10px 0 ;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom:30px ;
+    border: none;
+    border-bottom:1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.LoginBox .UserBox label{
+    position: relative;
+    left: 0;
+    top: -60px;
+    padding:10px 0;
+    font-size: 16px ;
+    color:#fff ;
+    pointer-events:none ;
+    transition: .5s;
+}
+.LoginBox .UserBox input:focus~label,
+.LoginBox .UserBox input:valid~label{
+    top:-85px ;
+    left: 0;
+    color: #f7f5ff;
+    font-size:12px ;
+}
+
+
+
+
+.LoginBox .Userboxx input{
+    position: relative;
+    width: 100%;
+    padding:10px 0 ;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom:30px ;
+    border: none;
+    border-bottom:1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.LoginBox .Userboxx label{
+    position: relative;
+    left: 0;
+    top: -60px;
+    padding:10px 0;
+    font-size: 16px ;
+    color:#fff ;
+    pointer-events:none ;
+    transition: .5s;
+}
+.LoginBox .Userboxx input:focus~label,
+.LoginBox .Userboxx input:valid~label{
+    top:-85px ;
+    left: 0;
+    color: #fff;
+    font-size:12px ;
+}
+
+
+#submit{
+padding: 10px 20px  ;
+color: #8F7CEC  ;
+font-size: 16px;
+text-decoration:none ;
+text-align: center;
+text-transform: uppercase;
+overflow: hidden;
+transition: .5s;
+letter-spacing:4px ;
+border: 1px solid #8F7CEC ;
+margin: auto;
+}
+
+#submit :hover{
+    background-color:#fff ;
+    color:#fff ;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #8F7CEC , 0 0 25px #8F7CEC , 0 0 50px #8F7CEC , 0 0 100px #8F7CEC ;
+}
+
+
+.ButtonBox{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    
+}
+
+
+#register{
+    font-size: 14px;
+    text-decoration: none;
+    color:#CBBDDB;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+#register a {
+    margin: auto;
+    color:#8F7CEC;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
