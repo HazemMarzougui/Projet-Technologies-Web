@@ -1,1 +1,1 @@
-# Projet-Technologies-Web
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=55F747&random=false&width=435&lines=Web+Project+using+(HTML%2CCSS%2CJs%2CPHP);Website+Name+%3A+SWITCHINI+;Worked+by+%3A+SparkTeam)](https://git.io/typing-svg)
